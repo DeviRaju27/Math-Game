@@ -28,9 +28,9 @@ class Game
     score
     @player_2.new_question
     score
-    puts "---------------"
-    puts "Lives left - player 1: #{@player_1.lives}/3 vs player 2: #{@player_2.lives}/3"
-    puts "---------------"
+    puts "------SCORE BOARD---------"
+    puts "player 1: #{@player_1.lives}/3 vs player 2: #{@player_2.lives}/3"
+    puts "------NEW TURN---------"
     play
   end
 end

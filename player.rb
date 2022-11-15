@@ -23,10 +23,10 @@ class Player
       answer = $stdin.gets.chomp
       
       if new_question.check?(answer.to_i)
-        puts "correct! lives left #{@name}: #{@lives}/3 "
+        puts "correct! "
       else 
         lives_left
-        puts "wrong! lives left  #{@name}: #{@lives}/3"
+        puts "wrong! "
        
       end
   end

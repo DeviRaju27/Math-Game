@@ -7,6 +7,7 @@ class Question
 
   def question(name)
     puts "#{name}:What is #{@num1} + #{@num2}"
+    print ">"
   end
 
   def check?(answer)
